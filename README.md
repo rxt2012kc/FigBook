@@ -22,6 +22,16 @@
 ## 项目路径
 ```
 1.自然语言处理模块
+- amazon_flaks
+ - flaskr:将爬虫模块，情感分析模块，关键词提取模块封装为resful接口，与java后台进行通信。
+ - emotion:情感分析模块
+  - emotionanalysis_amazon.py
+ - keyword:关键词提取模块
+  - keyword.py
+ - indexspider:爬虫模块
+  - indexspider
+   - spiders
+    - spider.py
     
 2.javaWeb（后台+前端）
 - AmazonDemo
@@ -29,9 +39,16 @@
  - /src/main/java/com/amazon/web/service/serachService
  - webapp
   - FigBook
-   -index.jsp # 搜索栏首页
-   -analyser.jsp # 分析页面
+   -index.jsp # 搜索栏首页
+   -analyser.jsp # 分析页面
 
 3.平台展示示例图片
 - imageDemo
+```
+## 项目分工
+```
+1.自然语言处理:包括爬虫获取商品的用户评论信息模块，评论情感分析模块，评论关键词提取模块，评论摘要提取模块--任鑫涛（renxintao）
+2.java后台：项目搭建--任鑫涛（renxintao）；项目开发--任鑫涛(renxintao)，孙陈娜
+3.前端：张思遥，贾已
+4.各模块之间的交互与联调--任鑫涛（renxintao）
 ```
